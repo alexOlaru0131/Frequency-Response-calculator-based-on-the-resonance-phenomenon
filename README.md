@@ -2,7 +2,9 @@
 
 **This is a modified version, the first version modified the values by interpolating signals and I decided to not do that**
 
-This projects shows how you can calculate the `frequency response (Bode plots)` based on the output and input signals. The system has `2 poles and no zeros` and has the following transfer function:
+This projects shows how you can calculate the `frequency response (Bode plots)` based on the output and input signals. The whole script is written in `FrequencyResponse.m`.
+
+The system has `2 poles and no zeros` and has the following transfer function:
 
 ![alt text](transferFunction.png)
 
@@ -26,3 +28,10 @@ For the Bode plot I used the MATLAB-calculated Bode values using the transfer fu
 ![alt text](bodeFormulas.png) 
 
 To calculate the pulsations precisely I used interpolation.
+
+After calculating all the points I filtered them based on the distance from the original plot and the y-axis values. The resulting output is the following:
+
+![alt text](FrequencyResponse_plots.png)
+
+Because of the big differences of the phase between the signals you can see it going down just as a curve, and the modulus points are around the correct values.
+
