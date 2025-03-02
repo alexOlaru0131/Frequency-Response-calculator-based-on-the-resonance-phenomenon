@@ -4,4 +4,15 @@ This projects shows how you can calculate the `frequency response (Bode plots)` 
 
 ![alt text](transferFunction.png)
 
-First, we need to calculate $\omega_n$
+The input and output signals are the following:
+
+![alt text](Signals.png)
+
+The `input signal (blue)` is a `sine wave` with variable frequency that has a `continuous component` and an `alternative component`, and also the noise is present.
+The `output signal (red)` is also a `sine wave` with same characteristics as the input signal, but after it's start it shows the `resonance phenomenon` that modifies the modulus up to a maximum that we will call `resonance modulus ($M_r$)`.
+
+First, we need to calculate $\omega_n$, $zeta$, and $K$. I calculated them based on the following formulas:
+
+![alt text](Screenshot_1.png)
+![alt text](naturalOscillations.png)
+![alt text](zeta.png)
