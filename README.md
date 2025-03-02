@@ -13,6 +13,7 @@ The `output signal (red)` is also a `sine wave` with same characteristics as the
 
 First, we need to calculate $\omega_n$, $zeta$, and $K$. I calculated them based on the following formulas:
 
-![alt text](Screenshot_1.png)
+![alt text](Screenshot_1.png) , which means that `K is the ratio between the mean value of y and the mean value of u`
+
 ![alt text](naturalOscillations.png)
 ![alt text](zeta.png)
