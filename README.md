@@ -15,6 +15,6 @@ First, we need to calculate the value of natural oscillations $\omega_n$, dampin
 
 ![alt text](Screenshot_1.png) , which means that `K is the ratio between the mean value of y and the mean value of u`
 
-![alt text](zeta.png)
+![alt text](zeta.png) , which means that we can calculate ζ based on $M_r$
 
 ![alt text](naturalOscillations.png) , which means that we can calculate the $\omega_n$ based on the `value of the resonance oscillations ` $\omega_r$ `and ζ` 
