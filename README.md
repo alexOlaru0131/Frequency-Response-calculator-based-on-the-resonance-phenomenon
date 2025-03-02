@@ -1,6 +1,7 @@
 # Frequency-Response-calculator-based-on-the-resonance-phenomenon
 
-!This is a modified version, the first version modified the signals and I decided to not do that!
+**This is a modified version, the first version modified the signals and I decided to not do that**
+
 This projects shows how you can calculate the `frequency response (Bode plots)` based on the output and input signals. The system has `2 poles and no zeros` and has the following transfer function:
 
 ![alt text](transferFunction.png)
