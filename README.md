@@ -17,4 +17,4 @@ First, we need to calculate $\omega_n$, $zeta$, and $K$. I calculated them based
 
 ![alt text](zeta.png)
 
-![alt text](naturalOscillations.png) , which means that we can calculate the `value of natural oscillations $\omega_n$` based on the `value of the resonance oscillations $\omega_r$ and damping factor $\zeta$` 
+![alt text](naturalOscillations.png) , which means that we can calculate the `value of natural oscillations` $\omega_n$ based on the `value of the resonance oscillations $\omega_r$ and damping factor $\zeta$` 
